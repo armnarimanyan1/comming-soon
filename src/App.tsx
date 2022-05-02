@@ -2,7 +2,7 @@ import React from 'react';
 import useLocalStorage from 'use-local-storage';
 import { Layout } from 'antd';
 import GlobalStyle from './styles/global';
-import Navbar from './components/organisms/Navbar';
+import Navbar from './components/organisms/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import ThemeContext from './context/ThemeContext';
 import HomePage from './components/pages/homepage';

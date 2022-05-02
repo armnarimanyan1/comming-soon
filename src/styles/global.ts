@@ -176,6 +176,7 @@ code {
   flex-direction: column;
   height: 100%;
   color: var(--text-primary);
+  min-height: 100vh;
 }
 .ant-dropdown-menu{
   background-color: var(--background-l0);
@@ -193,6 +194,9 @@ export const Wrapper = styled.div`
   padding-right: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
+  @media (max-width: 767px) {
+    margin-top: 80px;
+  }
 `;
 export const Section = styled.div`
   max-width: 100%;
